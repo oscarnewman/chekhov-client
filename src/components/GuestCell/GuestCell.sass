@@ -1,0 +1,24 @@
+.GuestCell
+  display: flex
+  border-bottom: solid 1px #ddd
+  padding: 10px 0
+  cursor: pointer
+
+  .indicator
+    content: ""
+    width: 7px
+    height: 7px
+    background: red
+    border-radius: 50%
+    border: solid 4px lighten(red, 30%)
+    margin: 0 5px
+
+  .content-left, .content-right
+    p
+      margin: 0
+  
+  .content-left
+    flex: 1
+
+  .content-right
+    text-align: right
